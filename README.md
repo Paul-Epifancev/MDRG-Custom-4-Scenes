@@ -172,6 +172,26 @@ This version targets exactly **3 nodes**, replacing them with completely transpa
 
 ---
 
+## 📚 TECHNICAL DOCUMENTATION / ТЕХНИЧЕСКАЯ ДОКУМЕНТАЦИЯ
+
+**[EN]** This repository includes comprehensive technical documentation for modders and reverse-engineers:
+
+- 🔧 **[Core Managers Runtime Specification](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/Core_Managers_Runtime_Specification)** — Complete registry of all 6 `TextureOverriderManager` instances with Manager IDs, absolute paths, node names, original sizes, and Lua API examples. Essential reading for anyone creating texture mods.
+
+- 🧪 **[MDRG METHOD: Error-Driven Memory Scanning](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/MDRG%20METHOD%20Error-Driven%20Memory%20Scanning)** — Detailed explanation of the reverse-engineering methodology used to discover all scene nodes. This technique uses the game's embedded MoonSharp API to dump legitimate target addresses into the text log during runtime validation.
+
+- 📋 **[Lua Exploit Result](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/Lua%20Exploit%20result)** — Actual output logs showing the "Potential matches" field with all discovered node paths. Demonstrates how the Error-Driven Memory Scanning method works in practice.
+
+**[RU]** Этот репозиторий включает исчерпывающую техническую документацию для моддеров и реверс-инженеров:
+
+- 🔧 **[Спецификация менеджеров времени выполнения](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/Core_Managers_Runtime_Specification)** — Полный реестр всех 6 экземпляров `TextureOverriderManager` с ID менеджеров, абсолютными путями, именами нод, оригинальными размерами и примерами Lua API. Обязательное чтение для всех, кто создаёт моды текстур.
+
+- 🧪 **[Метод MDRG: Сканирование памяти на основе ошибок](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/MDRG%20METHOD%20Error-Driven%20Memory%20Scanning)** — Подробное объяснение методологии реверс-инжиниринга, использованной для обнаружения всех нод сцен. Эта техника использует встроенный MoonSharp API игры для выгрузки легитимных целевых адресов в текстовый лог во время валидации в runtime.
+
+- 📋 **[Результат Lua-эксплойта](https://github.com/Paul-Epifancev/MDRG-Custom-4-Scenes/blob/main/Lua%20Exploit%20result)** — Реальные выходные логи, показывающие поле "Potential matches" со всеми обнаруженными путями нод. Демонстрирует, как метод сканирования памяти на основе ошибок работает на практике.
+
+---
+
 ## 🔴 KNOWN ISSUES / ИЗВЕСТНЫЕ ПРОБЛЕМЫ
 
 ### Texture Offset in Shower & Clothier Shop Scenes (UNRESOLVED) / Смещение текстур в сцене душа и магазине одежды (НЕ РЕШЕНО)
