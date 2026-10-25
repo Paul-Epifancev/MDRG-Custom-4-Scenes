@@ -1,0 +1,22 @@
+{
+    "name": "Custom 4 Scenes",
+    "description": "Author: anon.jun",
+    "modVersion": "1.0.0",
+    "OnGameStart": {
+        "luaFiles": 
+		[
+		"ChangingRoom.lua",
+		"GroceryShop.lua",
+		"MissionaryScene.lua",
+		"ShowerSceneV2.lua"
+		]
+    },
+    "targetVersion": "0.97.12",
+    "languageCode": "en",
+    "doNotChangeVariablesBelowThis": {
+        "timeCreated": 639285363943524234,
+        "guid": {
+            "serializedGuid": "1d4d41b5-f701-46b0-a1e0-573e541efe4a"
+        }
+    }
+}
