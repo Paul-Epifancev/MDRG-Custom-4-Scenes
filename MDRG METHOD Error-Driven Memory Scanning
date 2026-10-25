@@ -1,0 +1,10 @@
+MDRG METHOD: Error-Driven Memory Scanning
+Created by Paul.Epifancev #warlockforbugs (Discord: anon.jun)
+
+MDRG METHOD: Lua Error-Driven Memory Scanning (Runtime Diagnostics via Forced Validation).
+This method utilizes the game's embedded MoonSharp API and debugging system to reverse-engineer scene nodes.
+The Lua script intentionally feeds an invalid or cross-scene path node to the texture manager.
+During runtime validation, the embedded MoonSharp API rejects the false request and generates an error.
+While handling the error, the manager dumps all legitimate target addresses into the text log.
+These valid handles are exposed inside the "Potential matches" field within the txt log file.
+This approach allows instant mapping of the RAM layout without relying on heavy external debuggers.
